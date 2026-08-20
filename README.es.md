@@ -1,9 +1,9 @@
-# SaaSFlow
+# saasflow-portfolio
 
-SaaSFlow es una aplicación web en React + TypeScript pensada para agencias y equipos de servicios que necesitan un espacio unificado para gestionar proyectos, clientes, tareas, cotizaciones, briefs, contratos y colaboradores.
+saasflow-portfolio es una aplicación web en React + TypeScript pensada para agencias y equipos de servicios que necesitan un espacio unificado para gestionar proyectos, clientes, tareas, cotizaciones, briefs, contratos y colaboradores.
 
 ## Overview
-SaaSFlow centraliza el flujo operativo típico de negocios digitales pequeños y medianos:
+saasflow-portfolio centraliza el flujo operativo típico de negocios digitales pequeños y medianos:
 
 - **Operación de proyectos** (proyectos, plantillas, progreso, prioridades)
 - **Relación con clientes** (gestión tipo CRM)
@@ -72,7 +72,7 @@ El proyecto sigue una arquitectura frontend modular:
 ### Pasos
 ```bash
 git clone <url-de-tu-repositorio>
-cd SaaSFlow
+cd saasflow-portfolio
 npm install
 npm run dev
 ```
@@ -89,7 +89,7 @@ La aplicación corre en `http://localhost:8080` por defecto.
 
 ## Project Structure
 ```text
-SaaSFlow/
+saasflow-portfolio/
 ├─ public/                  # assets estáticos
 ├─ src/
 │  ├─ components/           # layout/dashboard/componentes compartidos

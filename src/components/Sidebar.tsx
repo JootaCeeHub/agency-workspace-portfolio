@@ -104,7 +104,7 @@ const Sidebar = ({ isCollapsed, onToggle }: SidebarProps) => {
         {!isCollapsed && (
           <div className="flex items-center space-x-2">
             <Building2 className="h-8 w-8 text-blue-400" />
-            <span className="font-bold text-xl">SaaSFlow</span>
+            <span className="font-bold text-xl">saasflow-portfolio</span>
           </div>
         )}
         <Button
@@ -151,7 +151,7 @@ const Sidebar = ({ isCollapsed, onToggle }: SidebarProps) => {
       <div className="p-4 border-t border-slate-800">
         {!isCollapsed && (
           <div className="text-xs text-slate-500 text-center">
-            SaaSFlow v1.0.0
+            saasflow-portfolio v1.0.0
           </div>
         )}
       </div>
